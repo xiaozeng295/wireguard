@@ -11,7 +11,6 @@ wget https://dl.goedge.cloud/edge-node/v1.4.7/edge-node-linux-amd64-plus-v1.4.7.
 # ========== 解压文件 ==========
 echo "解压文件..."
 unzip edge-node-linux-amd64-plus-v1.4.7.zip
-mv edge-node-linux-amd64-plus-v1.4.7 edge-node
 cd edge-node || { echo "进入目录失败"; exit 1; }
 
 # ========== 创建配置文件 api_cluster.yaml（严格按用户指定格式写入）==========
